@@ -1,1 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f0f1a;
+    color: white;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #111;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #1a1a2e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+}
